@@ -50,4 +50,3 @@ typing_extensions==4.13.0
 tzdata==2025.2
 urllib3==2.3.0
 watchdog==6.0.0
-opencv-python-headless
