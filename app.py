@@ -182,9 +182,9 @@ if app_mode == "Image Upload":
         
         col1, col2 = st.columns(2)
         with col1:
-            st.image(image, caption="Original Image", use_column_width=True)
+            st.image(image, caption="Original Image")
         with col2:
-            st.image(pred_path, caption="Detection Result", use_column_width=True)
+            st.image(pred_path, caption="Detection Result")
         
         for p in prediction['predictions']:
             if p['class'] == 'Cigarette' and p['confidence'] > 0.5:
